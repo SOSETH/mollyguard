@@ -1,2 +1,4 @@
 - name: install mollyguard
-  apt: name=molly-guard state=present
+  apt:
+    name: molly-guard
+    state: present
